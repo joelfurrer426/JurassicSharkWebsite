@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JurrasicShark</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #9bd8df, #5bc3d9);
+            font-family: "Arial", sans-serif;
+            font-size: 16px;
+            color: #111133;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .empty-box {
+            flex: 1;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            flex: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        .box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .menu-box {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .rounded-box {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1 class="index-title">JurrasicShark</h1>
+        <hr>
+    </header>
+    <div class="container">
+        <div class="empty-box">
+            Hallo
+        </div>
+        
+        <div class="box">
+            <img src="img/index_img.jpg" alt="BILD">
+        </div>
+        <div class="menu-box">
+            <a href="our-animals.html" class="rounded-box">
+                <p>Unsere Tiere</p>
+            </a>
+            <a href="opening-time.html" class="rounded-box">
+                <p>Öffnungszeiten</p>
+            </a>
+            <a href="contact.html" class="rounded-box">
+                <p>Kontakt</p>
+            </a>
+            <a href="contact.html" class="rounded-box">
+                <p>Impressum</p>
+            </a>
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
